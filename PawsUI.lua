@@ -2,7 +2,7 @@ local addonName, addonData = ...
 --[[ Sometimes, it takes 19 tries to do something you are new at.  The code below makes it
 when a player enters the world, the welcome message appears. ]]
 local PLAYER_LOGIN
-print("|cffFFFFFFThank you for using |cffFF4500Paws|cFFFFFFUI: Version: |cffFF99002.0!|r");
+print("|cffFFFFFFThank you for using |cffFF45Paws|cFFFFFFUI: Version: |cffFF99002.0!|r");
 print("|cffff0000Please Note:|r You can use /pui for help.");
 
 -- Slash Commands

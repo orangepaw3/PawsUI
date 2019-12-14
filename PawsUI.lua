@@ -39,12 +39,12 @@ end
 -- Font Functions
 PawsFonts = CreateFrame("Frame", "PawsFonts");
 
-local fonta = "Interface\\AddOns\\PawsUI\\Fonts\\big_noodle_titling.ttf"
+local fonta = "Interface\\AddOns\\PawsUI\\Fonts\\BebasNeue-Regular.ttf"
 local shadow = true
 
 function PawsFonts:ApplySystemFonts()
 
-STANDARD_TEXT_FONT = fonta
+STANDARD_TEXT_FONT = fonta -- changes the referenced font to "fonta"
 DAMAGE_TEXT_FONT = fonta
 UNIT_NAME_FONT   = fonta
 

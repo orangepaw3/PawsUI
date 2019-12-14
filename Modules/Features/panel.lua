@@ -4,7 +4,7 @@ BottomPane:SetFrameStrata("LOW"); -- Sets the strata.
 ScreenW = GetScreenWidth(); -- Gets the Screen Width.
 ScreenH = GetScreenHeight(); -- Gets the Screen Height.
 BottomPane:SetWidth(ScreenW); -- Sets the width of the "panel" to the screen width regardless of size.
-BottomPane:SetHeight(100); -- Sets the height of the "panel" to 30.
+BottomPane:SetHeight(100); -- Sets the height of the "panel" to 100.
 
 local BPTex = BottomPane:CreateTexture(nil, "LOW"); -- Sets the texture to Low strata.
 BPTex:SetTexture("Interface\\Addons\\PawsUI\\Art\\bg.tga"); -- Sets the actual texture.

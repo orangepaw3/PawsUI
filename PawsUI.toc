@@ -1,0 +1,17 @@
+## Interface: 80100
+## Title: |cffFF4500Paws|r |cffffffffUI|r
+## Notes: A UI for WoW
+## Author: Orangepaw3
+## X-Website: Offline at the moment.
+## X-Favorite-Food: Potatos.
+## X-Curse-Project-ID: 300947
+## Version: 2.1
+## SavedVariablesPerCharacter: PawDB
+## DefaultState: Enabled
+
+
+
+# XML Files
+Load.xml
+
+# End of Files

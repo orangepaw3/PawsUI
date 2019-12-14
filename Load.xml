@@ -6,4 +6,5 @@
     <Include file = "Modules/Features/panel.lua" />
     <Include file = "Modules/Features/data.lua" />
     <Include file = "Modules/Features/menu.lua" />
+    <Include file = "Modules/Features/splash.lua" />
 </UI>

@@ -1,9 +1,9 @@
 <UI>
-    <Script file = "PawsUI.lua" />
-    <Script file = "Modules/Features/afk.lua" />
-    <Script file = "Modules/Features/gridalign.lua" />
-    <Script file = "Modules/Features/level.lua" />
-    <Script file = "Modules/Features/panel.lua" />
-    <Script file = "Modules/Features/data.lua" />
-    <Script file = "Modules/Features/menu.lua" />
+    <Include file = "PawsUI.lua" />
+    <Include file = "Modules/Features/afk.lua" />
+    <Include file = "Modules/Features/gridalign.lua" />
+    <Include file = "Modules/Features/level.lua" />
+    <Include file = "Modules/Features/panel.lua" />
+    <Include file = "Modules/Features/data.lua" />
+    <Include file = "Modules/Features/menu.lua" />
 </UI>

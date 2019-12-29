@@ -25,5 +25,5 @@ end);
 -- Slash Command to show splash screen
 SLASH_TOGGLESPLASH1 = "/splash"
 SlashCmdList.TOGGLESPLASH = function(arg) -- Splash display
-	print("|cffff0000Please eat more chicken.");
+	print("|cffff0000Please eat more chicken.(with BBQ)");
 end

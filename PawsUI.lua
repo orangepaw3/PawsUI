@@ -2,7 +2,7 @@ local addonName, addonData = ...
 --[[ Sometimes, it takes 19 tries to do something you are new at.  The code below makes it
 when a player enters the world, the welcome message appears. ]]
 local PLAYER_LOGIN
-print("|cffFFFFFFThank you for using |cffFF4500Paws |cffffffffUI: Version: |cffFF99002.0!|r");
+print("|cffFFFFFFThank you for using |cffFF4500Paws |cffffffffUI: Version: |cffFF99001.0!|r");
 print("|cffff0000Please Note:|r You can use /pui for help.");
 
 -- Slash Commands
@@ -44,7 +44,7 @@ local shadow = true
 
 function PawsFonts:ApplySystemFonts()
 
-STANDARD_TEXT_FONT = fonta -- changes the referenced font to "fonta"
+STANDARD_TEXT_FONT = fonta
 DAMAGE_TEXT_FONT = fonta
 UNIT_NAME_FONT   = fonta
 
@@ -71,5 +71,6 @@ end
 PawsFonts:RegisterEvent("ADDON_LOADED");
 
 PawsFonts:ApplySystemFonts()
+
 
 -- End

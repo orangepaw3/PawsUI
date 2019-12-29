@@ -5,7 +5,7 @@
 ## X-Website: Offline at the moment.
 ## X-Favorite-Food: Potatos.
 ## X-Curse-Project-ID: 300947
-## Version: 2.1
+## Version: 1.0
 ## SavedVariablesPerCharacter: PawDB
 ## DefaultState: Enabled
 

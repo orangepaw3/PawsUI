@@ -9,11 +9,9 @@ splashFrame:SetAlpha(1);
 -- Texture
 
 local splashTexture = splashFrame:CreateTexture(nil, "LOW"); -- Sets the texture to Low strata.
-splashTexture:SetTexture("Interface\\Addons\\PawsUI\\Art\\splash.tga"); -- Sets the actual texture.
+splashTexture:SetTexture("Interface\\Addons\\PawsUI\\Art\\splasha.tga"); -- Sets the actual texture.
 splashTexture:SetAllPoints(splashFrame); -- Sets all the points to "splashFrame."
 splashFrame.texture = splashTexture -- Identifies "splashFrame" texture to the variable name splashTexture.
-
-
 
 local eventManager = CreateFrame("Frame");
 eventManager:RegisterEvent("PLAYER_ENTERING_WORLD");

@@ -9,7 +9,7 @@ print("|cffff0000Please Note:|r You can use /pui for help.");
 SLASH_RELOADUI1 = "/rl"
 SlashCmdList.RELOADUI = ReloadUI -- this section allows for fast reloading
 --------------------------------------------------------------------------
-SLASH_TOGGLEGRID1 = "/align"
+--[[SLASH_TOGGLEGRID1 = "/align"
 SlashCmdList.TOGGLEGRID = function(arg)  -- Grid Display
   if isAligning then
       Grid_Hide()
@@ -20,7 +20,7 @@ SlashCmdList.TOGGLEGRID = function(arg)  -- Grid Display
       Grid_Show()
       isAligning = true
   end
-end -- End Grid Display
+end -- End Grid Display --]]
 --------------------------------------------------------------------------
 SLASH_PUIHELP1 = "/pui"
 SlashCmdList.PUIHELP = function(args) -- Shows PawsUI Help

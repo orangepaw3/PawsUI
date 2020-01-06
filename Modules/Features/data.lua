@@ -5,12 +5,13 @@
 local databarl = CreateFrame("frame", "MyLB", UIParent);
 databarl:SetPoint("BOTTOMLEFT");
 databarl:SetPoint("BOTTOMRIGHT");
-databarl:SetHeight(20);
+databarl:SetHeight(25);
 -- and then add a background texture to the frame and then place stuff on it
 local databarTexture = databarl:CreateTexture(MyLB, "LOW");
-databarTexture:SetTexture("Interface\\Addons\\PawsUI\\Art\\bg.tga");
+databarTexture:SetTexture("Interface\\Addons\\PawsUI\\Art\\bgs.tga");
 databarTexture:SetAllPoints(databarl);
 databarTexture:SetHorizTile(true);
+databarTexture:SetVertTile(true);
 databarl.texture = databarTexture
 
 

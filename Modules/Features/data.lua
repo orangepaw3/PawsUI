@@ -2,12 +2,16 @@
 -- and the bottom right to the bottom right of the UIParent, then just set your height
 -- so:
 
-local databarl = CreateFrame("Frame", "MyLowerBar", UIParent);
+local databarl = CreateFrame("frame", "MyLB", UIParent);
 databarl:SetPoint("BOTTOMLEFT");
 databarl:SetPoint("BOTTOMRIGHT");
 databarl:SetHeight(20);
 -- and then add a background texture to the frame and then place stuff on it
--- MyBar in this example is a global variable name for the bar, you may not want that...
+local databarTexture = databarl:CreateTexture(MyLB, "LOW");
+databarTexture:SetTexture("Interface\\Addons\\PawsUI\\Art\\bg.tga");
+databarTexture:SetAllPoints(databarl);
+databarTexture:SetHorizTile(true);
+databarl.texture = databarTexture
 
 
 -- end of file

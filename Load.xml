@@ -8,4 +8,5 @@
     <Include file = "Modules/Features/menu.lua" />
     <Include file = "Modules/Features/splash.lua" />
     <Include file = "Modules/Features/tooltips.lua" />
+    <Include file = "" />
 </UI>

@@ -1,0 +1,12 @@
+<UI>
+    <Include file = "PawsUI.lua" />
+    <Include file = "Modules/Features/afk.lua" />
+    <Include file = "Modules/Features/gridalign.lua" />
+    <Include file = "Modules/Features/level.lua" />
+    <Include file = "Modules/Features/panel.lua" />
+    <Include file = "Modules/Features/data.lua" />
+    <Include file = "Modules/Features/menu.lua" />
+    <Include file = "Modules/Features/splash.lua" />
+    <Include file = "Modules/Features/tooltips.lua" />
+    <Include file = "" />
+</UI>

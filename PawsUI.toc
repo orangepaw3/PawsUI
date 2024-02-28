@@ -1,0 +1,8 @@
+## Interface: 100205
+## Author: OP3
+## Version: 1.00
+## Title: |cffFFA500Paws|r|cffFFFFFFUI|r
+## Notes: A custom User Interface, built with |cffFF69B4<3|r
+
+PawsUI.xml
+PawsUI.lua
